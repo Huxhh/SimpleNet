@@ -7,7 +7,7 @@ from trainer import Trainer
 import matplotlib.pyplot as plt
 
 
-(x_train, t_train), (x_test, t_test) = load_mnist()
+(x_train, t_train), (x_test, t_test) = load_mnist(flatten=False)
 
 epochs = 5
 
